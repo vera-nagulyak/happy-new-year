@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy New Year!</title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            body {
+                background-color: #ddd;
+                margin: 0;
+            }
+            .post-card {
+                display: block;
+                position: relative;
+                width: 542px;
+                height: 100%;
+                background-color: #ffffff;
+                margin: 0 auto;
+            }
+            .post-card .head {
+                background-color: #37A000;
+                padding: 7px 0;
+            }
+            .post-card .head .deers {
+                background: transparent url("deers.png") no-repeat scroll 0px 0px / auto 82px;
+                width: 271px;
+                height: 82px;
+                margin: 0 auto;
+            }
+            h1 {
+                text-align: center;
+                color: #494949;
+                font-size: 2.5em;
+            }
+            .post-card .content {
+                padding-left: 30px;
+                padding-right: 30px;
+                min-height: calc(100vh - 152px - 124px);
+            }
+            p {
+                margin-bottom: 0;
+            }
+            p.signature {
+                text-align: right;
+                margin-bottom: 1em;
+            }
+            br {
+                line-height: 0.5em;
+            }
+            .footer {
+                position: relative; 
+                float: bottom;
+                width: auto;
+                height: 120px;
+                background-color: #f2f2f2;
+                padding: 16px;
+            }
+            .social-network {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                background: url("") no-repeat scroll 0px 0px / auto 16px;
+            }
+            .social-network.facebook {
+                background-image: url("facebook.png");
+            }
+            .social-network.google-plus {
+                background-image: url("google+.png");
+            }
+            .right {
+                position: relative;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="post-card">
+            <div class="head">
+                <div class="deers"></div>
+            </div>
+            <div class="content">
+                <h1>Happy New Year</h1>
+                <p>
+                    My dear friend! 
+                    <img src="flower.png" width="32px" height="32px"/> 
+                    I wish you to be healthy and clever in 2016 Year!
+                </p>
+                <br/>
+                <p class="signature">Sincerely yours, Vera.</p>
+            </div>
+            <div class="footer">
+                <audio autoplay="autoplay">
+                    <source src="music.ogg" type="audio/ogg; codecs=vorbis"/>
+                    <!--<source src="music.mp3" type="audio/mpeg"/>-->
+                    Тег audio не поддерживается вашим браузером. 
+                </audio>
+                <div class="right">
+                    <a href="https://www.facebook.com/" class="social-network facebook" target="_blank" title="Facebook"></a>
+                    <a href="https://www.gmail.com/" class="social-network google-plus" target="_blank" title="Google+"></a>
+                </div>
+            </div>
+        </div>
+        <script src="http://www.fortress-design.com/js/snow-fall.js" type="text/javascript"></script>
+    </body>
+</html>
